@@ -96,13 +96,21 @@
   }
   .closing { text-align: center; font-size: 16px; margin-bottom: 8px; }
   .footer {
-    border-top: 1px solid #E6E5E3;
-    padding: 24px 40px;
+    background: #F0EFED;
+    padding: 32px 40px;
     font-size: 14px;
-    line-height: 1.7;
-    color: #7D7A75;
+    line-height: 1.8;
+    color: #555351;
+    text-align: center;
   }
-  .footer a { color: #7D7A75; }
+  .footer a { color: #2783DE; }
+  .footer-org { font-weight: 700; color: #2C2C2B; }
+  .footer-note { color: #7D7A75; }
+  .contact-line { text-align: center; font-size: 16px; margin: 24px 0 8px; }
+  .contact-line a { color: #2783DE; }
+  .sig-social { display: flex; gap: 8px; justify-content: center; margin-bottom: 16px; }
+  .sig-social a { display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: #4D4D4D; }
+  .sig-social svg { width: 16px; height: 16px; fill: #FFFFFF; }
   @media (max-width: 560px) {
     .topics { grid-template-columns: 1fr; }
     .content { padding: 32px 24px 24px; }
@@ -177,12 +185,20 @@
       </div>
 
       <p class="closing">名額有限，先到先得。期待您的蒞臨！</p>
+      <p class="contact-line">如有疑問或查詢，可隨時與我們聯絡：<br>電郵：<a href="mailto:adobemkt@acw-group.com.hk">adobemkt@acw-group.com.hk</a> ｜ 電話：<a href="tel:+85238544780">+852 3854 4780</a></p>
     </div>
 
     <div class="footer">
-      【公司/團隊署名】｜【聯絡方法】<br>
-      您收到此電郵，是因為您曾登記接收相關活動資訊。本公司按《個人資料（私隱）條例》處理您的個人資料。<br>
-      <a href="#">取消訂閱</a> ｜ <a href="#">私隱政策</a>
+      <div class="sig-social">
+        <a href="https://www.facebook.com/ACWDHK" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.5V5c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8V11H8v3h2.7v7h2.8z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" style="fill:none;stroke:#fff;stroke-width:2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" style="fill:#fff;stroke:none"/></svg></a>
+        <a href="https://www.linkedin.com/company/acw-distribution-hk-limited" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M6.94 5a2 2 0 1 1-4-.002A2 2 0 0 1 6.94 5zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/></svg></a>
+      </div>
+      <div class="footer-org">ACW Distribution | Digital Media Solution</div>
+      <div>16/F, Island Place Tower, 510 King's Road, North Point, Hong Kong</div>
+      <div>For enquiry: <a href="tel:+85238544780">+852 3854 4780</a> or email: <a href="mailto:adobesales@acw-group.com.hk">adobesales@acw-group.com.hk</a></div>
+      <div class="footer-note">您收到此電郵，是因為您已訂閱我們的電子通訊。</div>
+      <div class="footer-note"><a href="https://acwdms.github.io/adobe-CCE-workshop/">在瀏覽器檢視</a> ｜ <a href="#">取消訂閱</a></div>
     </div>
   </div>
 
